@@ -1,0 +1,7 @@
+@use 'variables'as *;
+@use 'mixin'as *;
+
+.color-theme-dark{
+    background-color: $dark-mode-bg;
+    color: $dark-mode-text;
+}

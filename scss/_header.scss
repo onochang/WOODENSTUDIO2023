@@ -1,0 +1,31 @@
+@use 'variables'as *;
+@use 'mixin' as *;
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+    padding: 0 40px;
+    @include mq(sp){
+        height: 60px;
+        padding: 0 30px;
+    }
+
+    &__logo {
+        width: 120px;
+        
+        @include mq(sp){
+            width: 88px;
+        }
+    }
+
+    .navigation{
+        @include mq(sp){
+            display: none;
+        }
+    }
+
+
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Google Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Noto+Sans+JP:wght@400;500&family=Noto+Serif+JP:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- ページトップボタン -->
+    <div class="page-top">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+    <!-- ダークモードボタン -->
+    <div class="dark-mode">
+        <i class="fa-solid fa-moon show"></i>
+        <i class="fa-solid fa-lightbulb show"></i>
+    </div>
+    <!-- モーダル  -->
+    <div class="modal">
+        <div class="modal-overlay">
+            <div class="modal-container">
+                <i class="fa-solid fa-xmark"></i>
+                <nav class="navigation">
+                    <ul class="navigation-menu">
+                        <li class="navigation-menu__link"><a href="#concept">CONCEPT</a></li>
+                        <li class="navigation-menu__link"><a href="#works">WORKS</a></li>
+                        <li class="navigation-menu__link"><a href="#news">NEWS</a></li>
+                        <li class="navigation-menu__link"><a href="#show-room">SHOW ROOM</a></li>
+                        <li class="navigation-menu__link"><a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-primary--gold"><i class="fa-regular fa-envelope"></i>お問い合わせ</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="main-visual">
+            <header>
+                <div class="header">
+                    <h1><img class="header__logo" src="./img/woodenStudio_logo.png" alt="WOODEN STUDIOのロゴ"></h1>
+                    <nav class="navigation">
+                        <ul class="navigation-menu">
+                            <li class="navigation-menu__link"><a href="#concept">CONCEPT</a></li>
+                            <li class="navigation-menu__link"><a href="#works">WORKS</a></li>
+                            <li class="navigation-menu__link"><a href="#news">NEWS</a></li>
+                            <li class="navigation-menu__link"><a href="#show-room">SHOW ROOM</a></li>
+                            <li class="navigation-menu__link"><a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-primary--gold"><i class="fa-regular fa-envelope"></i>お問い合わせ</a>
+                    </nav>
+                    <!-- hamburger -->
+                    <div class="mobile-menu">
+                        <div class="mobile-menu-icon">
+                            <div class="mobile-menu__border"></div>
+                            <div class="mobile-menu__border"></div>
+                            <div class="mobile-menu__border"></div>
+                            <p class="mobile-menu__text">MENU</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- CONCEPT -->
+        <section id="concept" class="concept section">
+            <div class="contents-container">
+                <div class="concept-primary">
+                    <div class="colum-first">
+                        <div class="section-head section-head--gold">
+                            <h2 class="section-head__small">私たちの家具</h2>
+                            <h2 class="section-head__large">CONCEPT</h2>
+                        </div>
+                        <article class="concept-article">
+                            <h3 class="concept-article__head">家具と共に時を過ごす</h3>
+                            <p class="concept-article__text">家具だけど、まるで家族みたいなかけがえのない存在。<br>
+                                私たちのつくる家具はあなたや家族と共に時を重ねるにつれて、<br>
+                                味わい深く変化していきます。<br>
+                                楽しい時も悲しい時もいつもそばにいてくれる。<br>
+                                かけがえのない家族の一員となってくれることでしょう。
+                            </p>
+                        </article>
+                    </div>
+                    <div class="colum-second">
+                        <img class="colum-second__photo1" src="./img/photo02.jpg" alt="収納家具の写真">
+                        <img class="colum-second__photo2" src="./img/photo03.jpg" alt="ダイニングテーブルの写真">
+                    </div>
+                </div>
+                <div class="concept-secondary">
+                    <div class="colum-first">
+                        <img class="colum-first__photo" src="./img/photo04.jpg" alt="収納家具の写真">
+                    </div>
+                    <div class="colum-second">
+                        <article class="concept-article">
+                            <h3 class="concept-article__head">オーダーメイドの家具屋さん</h3>
+                            <p class="concept-article__text">私たちの家具は完全受注生産となっております。<br>
+                                ただ作るだけではなく、お客様の生活や要望をヒアリングした上で、ご提案いたします。あなただけのカスタマイズも。世界に一つだけのオーダーメイド家具です。
+                                <br>こんな家具があればいいのになぁに私たちがお答えします。
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- WORKS -->
+        <section id="works" class="works section">
+            <div class="contents-container contents-container--wide">
+                <div class="section-head">
+                    <h2 class="section-head__small">制作事例</h2>
+                    <h2 class="section-head__large">WORKS</h2>
+                </div>
+                <div class="works-item">
+                    <a href="#" class="works-link works-img1">
+                        <p class="works-link__title">ソファー</p>
+                    </a>
+                    <a href="#" class="works-link works-img2">
+                        <p class="works-link__title">ダイニングテーブル</p>
+                    </a>
+                    <a href="#" class="works-link works-img3">
+                        <p class="works-link__title">テレビボード</p>
+                    </a>
+                    <a href="#" class="works-link works-img4">
+                        <p class="works-link__title">収納</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- NEWS -->
+        <section id="news" class="news section">
+            <div class="contents-container">
+                <div class="section-head">
+                    <h2 class="section-head__small">最新情報</h2>
+                    <h2 class="section-head__large">NEWS</h2>
+                </div>
+                <div class="news-list">
+                    <article class="news-article">
+                        <a href="#" class="news-link">
+                            <div class="picture-frame">
+                                <img src="img/photo07.jpg" alt="展示ルームの写真" class="news-article__img">
+                            </div>
+                            <p class="news-article__date">2023.05.12</p>
+                            <h4 class="news-article__title">2023家具フェア出展のお知らせ</h4>
+                            <p class="news-article__excerpt">今年も家具フェア2023にWOODEN STUDIOの出展が決定しました。</p>
+                        </a>
+                    </article>
+                    <article class="news-article">
+                        <a href="#" class="news-link">
+                            <div class="picture-frame">
+                                <img src="img/photo07.jpg" alt="展示ルームの写真" class="news-article__img">
+                            </div>
+                            <p class="news-article__date">2023.04.20</p>
+                            <h4 class="news-article__title">G.Wの営業時間変更について</h4>
+                            <p class="news-article__excerpt">G.W期間（4.28~5.6）は誠に勝手ながら営業時間が変更になります。</p>
+                        </a>
+                    </article>
+                    <article class="news-article">
+                        <a href="#" class="news-link">
+                            <div class="picture-frame">
+                                <img src="img/photo07.jpg" alt="展示ルームの写真" class="news-article__img">
+                            </div>
+                            <p class="news-article__date">2023.04.01</p>
+                            <h4 class="news-article__title">ホームページリニューアル</h4>
+                            <p class="news-article__excerpt">WOODEN STUDIOのWEBページをリニューアルしました。</p>
+                        </a>
+                    </article>
+                </div>
+                <div class="btn-wrap">
+                    <a href="#" class="btn btn-secondary--gold">NEWS一覧</a>
+                </div>
+            </div>
+        </section>
+        <!-- SHOW ROOM -->
+        <section id="show-room" class="show-room section">
+            <div class="contents-container">
+                <div class="section-head">
+                    <h2 class="section-head__small">展示スペース</h2>
+                    <h2 class="section-head__large">SHOW ROOM</h2>
+                </div>
+                <p class="show-room__text">実店舗で家具をご覧いただくことができます。</p>
+                <div class="room-list">
+                    <article class="room-article">
+                        <div class="room">
+                            <img src="img/photo08.jpg" alt="白い壁の広いワンルームの写真" class="room__img">
+                            <h3 class="room__name">WOODEN STUDIO EBETSU</h3>
+                            <p class="room__address">〒069-0852 北海道江別市大麻東町13-6</p>
+                            <p class="room__time">営業時間：平日 10:00 - 19:00　土日祝 10:00 - 18:00</p>
+                            <a href="" class="btn btn-primary--black">詳しくはこちら</a>
+                        </div>
+                    </article>
+                    <article class="room-article">
+                        <div class="room">
+                            <img src="img/photo09.jpg" alt="白い壁の広いワンルームの写真" class="room__img">
+                            <h3 class="room__name">WOODEN STUDIO YATSUSHIRO</h3>
+                            <p class="room__address">〒866-0861 熊本県八代市本町1丁目10-4</p>
+                            <p class="room__time">営業時間：平日 10:00 - 19:00　土日祝 10:00 - 18:00</p>
+                            <a href="" class="btn btn-primary--black">詳しくはこちら</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Call to action -->
+        <div class="cta">
+            <p class="cta__text">家具・オーダーのご相談は<br class="pc-none">お問い合わせページにて承ります。</p>
+            <a href="#" class="btn btn-primary--gold"><i class="fa-regular fa-envelope"></i>お問い合わせ</a>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <nav class="navigation">
+                <ul class="navigation-menu">
+                    <li class="navigation-menu__link"><a href="#concept">CONCEPT</a></li>
+                    <li class="navigation-menu__link"><a href="#works">WORKS</a></li>
+                    <li class="navigation-menu__link"><a href="#news">NEWS</a></li>
+                    <li class="navigation-menu__link"><a href="#show-room">SHOW ROOM</a></li>
+                    <li class="navigation-menu__link"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </nav>
+
+            <img src="img/woodenStudio_logo.png" alt="WOODEN STUDIOのロゴ" class="footer__logo">
+            <div class="copyright">
+                <p class="copyright__text">©️ 2023 WOODEN STUDIO All rights reserved .</p>
+            </div>
+        </div>
+    </footer>
+    <!-- gsap.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/dark-mode.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+
+</html>

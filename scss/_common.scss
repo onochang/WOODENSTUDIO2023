@@ -1,0 +1,77 @@
+@use 'variables' as *;
+@use 'mixin' as *;
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: $lora, $serif, $sans, serif;
+    color: $text-1;
+}
+
+h2{
+    font-size: 36px;
+}
+
+h3{
+    font-size: 24px;
+    @include mq(sp){
+        font-size: 20px;
+    }
+}
+
+h4{
+    font-size: 18px;
+}
+
+p{
+    font-size: 14px;
+}
+
+span{
+    display: inline-block;
+    font-size: 16px;
+}
+
+li{
+    list-style: none;
+}
+
+.fa-instagram {
+    font-size: 20px;
+}
+
+.section{
+    padding: 180px 0;
+    @include mq(sp){
+        padding: 90px 0;
+    }
+}
+
+.contents-container{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+
+    @include mq(sp){
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    &--wide{
+        width: 100%;
+        max-width: initial;
+        @include mq(sp){
+            padding: 0;
+        }
+    }
+}
+
+.pc-none{
+    display: none;
+    @include mq(sp){
+        display: block;
+    }
+}
